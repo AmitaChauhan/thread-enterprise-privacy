@@ -1,0 +1,315 @@
+<html>
+<head>
+    <title>Privacy Policy</title>
+    <style>
+        /* Sakura.css v1.4.1
+ * ================
+ * Minimal css theme.
+ * Project: https://github.com/oxalorg/sakura/
+ */
+        /* Body */
+        html {
+            font-size: 62.5%;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+        }
+
+        body {
+            font-size: 1.8rem;
+            line-height: 1.618;
+            max-width: 38em;
+            margin: auto;   
+            color: #4a4a4a;
+            background-color: #f9f9f9;
+            padding: 13px;
+        }
+
+        @media (max-width: 684px) {
+            body {
+                font-size: 1.53rem;
+            }
+        }
+
+        @media (max-width: 382px) {
+            body {
+                font-size: 1.35rem;
+            }
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            line-height: 1.1;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+            font-weight: 700;
+            margin-top: 3rem;
+            margin-bottom: 1.5rem;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+            -ms-word-break: break-all;
+            word-break: break-word;
+        }
+
+        h1 {
+            font-size: 2.35em;
+        }
+
+        h2 {
+            font-size: 2em;
+        }
+
+        h3 {
+            font-size: 1.75em;
+        }
+
+        h4 {
+            font-size: 1.5em;
+        }
+
+        h5 {
+            font-size: 1.25em;
+        }
+
+        h6 {
+            font-size: 1em;
+        }
+
+        p {
+            margin-top: 0px;
+            margin-bottom: 2.5rem;
+        }
+
+        small,
+        sub,
+        sup {
+            font-size: 75%;
+        }
+
+        hr {
+            border-color: #1d7484;
+        }
+
+        a {
+            text-decoration: none;
+            color: #1d7484;
+        }
+
+        a:visited {
+            color: #144f5a;
+        }
+
+        a:hover {
+            color: #982c61;
+            border-bottom: 2px solid #4a4a4a;
+        }
+
+        ul {
+            padding-left: 1.4em;
+            margin-top: 0px;
+            margin-bottom: 2.5rem;
+        }
+
+        li {
+            margin-bottom: 0.4em;
+        }
+
+        blockquote {
+            margin-left: 0px;
+            margin-right: 0px;
+            padding-left: 1em;
+            padding-top: 0.8em;
+            padding-bottom: 0.8em;
+            padding-right: 0.8em;
+            border-left: 5px solid #1d7484;
+            margin-bottom: 2.5rem;
+            background-color: #f1f1f1;
+        }
+
+        blockquote p {
+            margin-bottom: 0;
+        }
+
+        img,
+        video {
+            height: auto;
+            max-width: 100%;
+            margin-top: 0px;
+            margin-bottom: 2.5rem;
+        }
+
+        /* Pre and Code */
+        pre {
+            background-color: #f1f1f1;
+            display: block;
+            padding: 1em;
+            overflow-x: auto;
+            margin-top: 0px;
+            margin-bottom: 2.5rem;
+            font-size: 0.9em;
+        }
+
+        code,
+        kbd,
+        samp {
+            font-size: 0.9em;
+            padding: 0 0.5em;
+            background-color: #f1f1f1;
+            white-space: pre-wrap;
+        }
+
+        pre>code {
+            padding: 0;
+            background-color: transparent;
+            white-space: pre;
+            font-size: 1em;
+        }
+
+        /* Tables */
+        table {
+            text-align: justify;
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td,
+        th {
+            padding: 0.5em;
+            border-bottom: 1px solid #f1f1f1;
+        }
+
+        /* Buttons, forms and input */
+        input,
+        textarea {
+            border: 1px solid #4a4a4a;
+        }
+
+        input:focus,
+        textarea:focus {
+            border: 1px solid #1d7484;
+        }
+
+        textarea {
+            width: 100%;
+        }
+
+        .button,
+        button,
+        input[type=submit],
+        input[type=reset],
+        input[type=button] {
+            display: inline-block;
+            padding: 5px 10px;
+            text-align: center;
+            text-decoration: none;
+            white-space: nowrap;
+            background-color: #1d7484;
+            color: #f9f9f9;
+            border-radius: 1px;
+            border: 1px solid #1d7484;
+            cursor: pointer;
+            box-sizing: border-box;
+        }
+
+        .button[disabled],
+        button[disabled],
+        input[type=submit][disabled],
+        input[type=reset][disabled],
+        input[type=button][disabled] {
+            cursor: default;
+            opacity: 0.5;
+        }
+
+        .button:focus:enabled,
+        .button:hover:enabled,
+        button:focus:enabled,
+        button:hover:enabled,
+        input[type=submit]:focus:enabled,
+        input[type=submit]:hover:enabled,
+        input[type=reset]:focus:enabled,
+        input[type=reset]:hover:enabled,
+        input[type=button]:focus:enabled,
+        input[type=button]:hover:enabled {
+            background-color: #982c61;
+            border-color: #982c61;
+            color: #f9f9f9;
+            outline: 0;
+        }
+
+        textarea,
+        select,
+        input {
+            color: #4a4a4a;
+            padding: 6px 10px;
+            /* The 6px vertically centers text on FF, ignored by Webkit */
+            margin-bottom: 10px;
+            background-color: #f1f1f1;
+            border: 1px solid #f1f1f1;
+            border-radius: 4px;
+            box-shadow: none;
+            box-sizing: border-box;
+        }
+
+        textarea:focus,
+        select:focus,
+        input:focus {
+            border: 1px solid #1d7484;
+            outline: 0;
+        }
+
+        input[type=checkbox]:focus {
+            outline: 1px dotted #1d7484;
+        }
+
+        label,
+        legend,
+        fieldset {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+    </style>
+</head>
+    
+<img src="thread-square-icon.png" alt="Thread Logo" width="100" height="100" class="center">
+<body>
+<p><em>Privacy Policy</em></p>
+<!-- <p>Thread app is built as a Free app. This SERVICE is provided by Thread at no cost and is intended for use as is.</p> -->
+<p>This page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.</p>
+<p>If you choose to use our Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that we collect is used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.</p>
+<p>The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which are accessible at Thread unless otherwise defined in this Privacy Policy.</p>
+<p><em>Information Collection and Use</em></p>
+<p>For a better experience, while using our Service, we may require you to provide us with certain personally identifiable information. The information that we request will be retained by us and used as described in this privacy policy.</p>
+<p>The app does use third-party services that may collect information used to identify you.</p>
+<p>Link to the privacy policy of third-party service providers used by the app: <a href="https://www.deepl.com/privacy/">DeepL</a> </p>
+
+<p><em>Log Data</em></p>
+<p>We want to inform you that whenever you use our Service, in a case of an error in the app we collect data and information (through third-party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing our Service, the time and date of your use of the Service, and other statistics.</p>
+<p><em>Cookies</em></p>
+<p>Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device&#39;s internal memory.</p>
+<p>This Service does not use these “cookies” explicitly. However, the app may use third-party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.</p>
+<p><em>Service Providers</em></p>
+<p>We may employ third-party companies and individuals due to the following reasons:</p>
+<ul>
+<li>To facilitate our Service;</li>
+<li>To provide the Service on our behalf;</li>
+<li>To perform Service-related services; or</li>
+<li>To assist us in analyzing how our Service is used.</li>
+</ul>
+<p>We want to inform users of this Service that these third parties have access to their Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.</p>
+<p><em>Contacts</em></p>
+<p>If users permits, the Thread app can access the contacts of the user on that particular phone. Thread accesses contacts on a phone to show which of your phones are already on Thread. Thread will not send any messages to your contacts without your explicit permission.</p>
+<p><em>Security</em></p>
+<p>We value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.</p>
+<p><em>Links to Other Sites</em></p>
+<p>This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by us. Therefore, we strongly advise you to review the Privacy Policy of these websites. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.</p>
+<p><em>Children’s Privacy</em></p>
+<p>These Services do not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13 years of age. In the case we discover that a child under 13 has provided us with personal information, we immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we will be able to do the necessary actions.</p>
+<p><em>Changes to This Privacy Policy</em></p>
+<p>We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
+<p>This policy is effective as of 2023-07-18</p>
+<p><em>Contact Us</em></p>
+<p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at info@getthread.app.</p>
+</body>
+</html>
